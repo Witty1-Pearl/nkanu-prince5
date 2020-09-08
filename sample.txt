@@ -1,0 +1,76 @@
+Task 1. Explore the CSS. Look at all the unique selectors. Find things that are new to you
+and learn what to do. Find properties you may not be familiar with and google them. 
+
+Provide your answers in a README.md file in your repo.
+
+*Answers:
+A.
+1. Grouping of selector; e.g x,y.....
+2. Universal Selector; e.g *
+3. Type selectors; e.g. Elementname
+4. Descendant selectors; e.g. xy
+5. Child selectors; e.g. x>y
+6. Adjacent sibling selectors; e.g. x+y
+7. Attribute selectors; e.g. [att] | [att=val] | [att|=val] where att=attribute
+8. Default attribute values in DTDs; In XML you will usually have to declare attributes in 
+
+   an DTD file, with care such that a respective stylesheet must select attributes even if 
+
+   the default values are not included in the document tree.
+9. Class selectors; e.g. .classname
+10. ID selectors; e.g. #idname
+11. Pseudo-classes; e.g. :first-child | :link and :visited | :hover, and :focus | :lang.
+
+B.
+
+1. Universal Selector: css universal selectors select any type of elements in an HTML      
+
+ page. It matches a single element. An asterik such as "*", An asterik can also be       
+
+followed by a selector. This is useful when you want to set a style for all the element    
+
+within an html page, or for all the element within an html page.
+
+	e.g. *{ CSS-Property: value;.................. }
+
+2. Class selector; this select elements in an html page, if they have an attribute called  
+
+   class, whose value matches the name of the class selector. In a style sheet document,   
+
+   the name of the class selector is preceeded by a period such as ".",
+	
+	e.g. .classname{ CSS-Property: valu;........... } 
+
+3. Type Selectors: this selects every instance of an element in an html page.
+
+	e.g. elementName { CSS-Property: value; ................. }
+
+4. id selector; CSS id selector selects any element in n html page, if it has an attribute 
+
+   called id, whose value matches the name of the i selector. In a CSS document the name   
+
+   of the id selector is preceded by a "#".
+
+5. CSS pseudo classes; this select elements not based on their names, but based on state.
+   For example, when you want to set the style for different states ( active, hover etc )  
+
+  of the hyperlink, you can not do that by simply selecting the a element. You need to     
+
+   use CSS pseudo classes in these cases. CSS pseudo-classes always start with a ":".
+
+	elementsName:CSS_Pseudo_Class{ CSS-Prpperty: value; .............. }
+
+6. CSS pseudo-elements; select elements not based on their names, but by the formatting of 
+
+   those elements.For example, when you want to set the style for first-line or first-     
+
+ letter of an element (say a paragraph), you can not do that by simply selecting the p     
+
+ element. You need to use CSS pseudo-element in these cases. CSS pseudo-elements always    
+
+   start with a ":".
+
+	e.g. elementName:CSS_Pseudo_element{ CSS-Property: value; ................. }
+
+  
+
